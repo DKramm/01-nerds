@@ -1,6 +1,13 @@
+body{
+    margin: 0;
+}
 .header{
-   border: 1px solid #111; 
+   
     display: flex;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    padding: 20px 100px; 
+    
 }
 .header-menu ul{
     display: flex;
@@ -10,18 +17,29 @@
 .header-menu ul li{
    padding-right: 15px; 
 }            
+.header-menu ul li:last-child{
+   margin-left: 300px;
+}            
 .Products{
 display: flex;
+    padding: 50px 100px; 
+    border: 3px solid red;
+     justify-content: space-between;
 }
 
 .product-item{
-    border: 1px solid #111
+   width: 300px;
 }
 .row{
     display: flex;
+    
+}
+.Adout{
+    padding: 50px 100px; 
 }
 footer{
     display: flex;
+    padding: 0 100px; 
 
 }
 .left ul {

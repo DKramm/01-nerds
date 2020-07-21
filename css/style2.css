@@ -1,0 +1,33 @@
+.header{
+   border: 1px solid #111; 
+    display: flex;
+}
+.header-menu ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.header-menu ul li{
+   padding-right: 15px; 
+}            
+.Products{
+display: flex;
+}
+
+.product-item{
+    border: 1px solid #111
+}
+.row{
+    display: flex;
+}
+footer{
+    display: flex;
+
+}
+.left ul {
+    display: flex;
+    list-style-type: none;
+}
+.left ul li{
+    padding-right: 10px;
+}

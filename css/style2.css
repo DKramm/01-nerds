@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .header{
    
@@ -12,6 +13,8 @@ body{
 .header-menu ul{
     display: flex;
     list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 600;
     
 }
 .header-menu ul li{
@@ -29,10 +32,16 @@ display: flex;
 
 .product-item{
    width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 .row{
     display: flex;
+    justify-content: space-between;
     
+}
+.right{
+justify-self: end;
 }
 .Adout{
     padding: 50px 100px; 
@@ -45,7 +54,45 @@ footer{
 .left ul {
     display: flex;
     list-style-type: none;
+    flex-direction: column;
+    
 }
 .left ul li{
     padding-right: 10px;
+    padding: 10px 0;
+}
+.product-item-btn{
+    
+    padding: 15px 40px;
+    
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 25px; 
+    width: 85px;
+    text-decoration: none;
+}
+.product-item-btn--red{
+    background-color: #FB565A;
+}
+.product-item-btn--green{
+    background-color: #00CA74;
+}
+.product-item-btn--yellow{
+    background-color: #EFC849;
+}
+.product-item h2{
+    text-transform: uppercase;
+}
+.about-heding{
+    font-size: 2.5rem;
+}
+.left h5{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.right h5{
+    text-transform: uppercase;
+}
+.right table th{
+    font-size: 2rem;
 }
